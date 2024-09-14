@@ -1,14 +1,12 @@
-import DronePreferencesForm from "@/components/DronePreferencesForm";
-import Quiz from "@/components/Quiz";
-import SearchBar from "@/components/SearchBar";
+import FPVSchematic from '@/components/fpvSchematic';
+import MarketResearchForm from '@/components/MarketResearchForm';
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-start h-screen">
-      <div className="w-1/2 p-4">
-       
-      </div>
-      <DronePreferencesForm />
-    </div>
+    <main className="flex min-h-screen flex-col items-center justify-start px-5 rounded-xl">
+      {/* <h1 className="text-4xl font-bold mb-8 text-white">FPV Drone Components Flow Chart</h1>*/}
+      {/* <MarketResearchForm /> */}
+      <FPVSchematic />
+    </main>
   );
 }

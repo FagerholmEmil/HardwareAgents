@@ -1,0 +1,114 @@
+{
+    "nodes": [
+      {
+        "id": "1",
+        "type": "input",
+        "data": { "label": "Custom FPV Drone" },
+        "position": { "x": 250, "y": 25 }
+      },
+      {
+        "id": "2",
+        "type": "default",
+        "data": { "label": "Frame" },
+        "position": { "x": 100, "y": 150 }
+      },
+      {
+        "id": "3",
+        "type": "default",
+        "data": { "label": "Power System" },
+        "position": { "x": 400, "y": 150 }
+      },
+      {
+        "id": "4",
+        "type": "default",
+        "data": { "label": "Flight Controller" },
+        "position": { "x": 250, "y": 250 }
+      },
+      {
+        "id": "5",
+        "type": "default",
+        "data": { "label": "Camera System" },
+        "position": { "x": 100, "y": 350 }
+      },
+      {
+        "id": "6",
+        "type": "default",
+        "data": { "label": "Radio System" },
+        "position": { "x": 400, "y": 350 }
+      },
+      {
+        "id": "7",
+        "type": "default",
+        "data": { "label": "Video Transmission" },
+        "position": { "x": 250, "y": 450 }
+      },
+      {
+        "id": "8",
+        "type": "default",
+        "data": { "label": "Battery" },
+        "position": { "x": 300, "y": 150 }
+      },
+      {
+        "id": "9",
+        "type": "default",
+        "data": { "label": "Electronic Speed Controllers (ESC)" },
+        "position": { "x": 300, "y": 200 }
+      },
+      {
+        "id": "10",
+        "type": "default",
+        "data": { "label": "Motors" },
+        "position": { "x": 300, "y": 250 }
+      },
+      {
+        "id": "11",
+        "type": "default",
+        "data": { "label": "Propellers" },
+        "position": { "x": 300, "y": 300 }
+      },
+      {
+        "id": "12",
+        "type": "default",
+        "data": { "label": "4K Camera" },
+        "position": { "x": 100, "y": 400 }
+      },
+      {
+        "id": "13",
+        "type": "default",
+        "data": { "label": "VTX (Video Transmitter)" },
+        "position": { "x": 100, "y": 450 }
+      },
+      {
+        "id": "14",
+        "type": "default",
+        "data": { "label": "Receiver" },
+        "position": { "x": 400, "y": 400 }
+      },
+      {
+        "id": "15",
+        "type": "default",
+        "data": { "label": "FPV Goggles/Monitor" },
+        "position": { "x": 400, "y": 450 }
+      }
+    ],
+    "edges": [
+      { "id": "e1-2", "source": "1", "target": "2", "animated": false },
+      { "id": "e1-3", "source": "1", "target": "3", "animated": false },
+      { "id": "e1-4", "source": "1", "target": "4", "animated": false },
+      { "id": "e1-5", "source": "1", "target": "5", "animated": false },
+      { "id": "e1-6", "source": "1", "target": "6", "animated": false },
+      { "id": "e1-7", "source": "1", "target": "7", "animated": false },
+      { "id": "e3-8", "source": "3", "target": "8", "animated": false },
+      { "id": "e3-9", "source": "3", "target": "9", "animated": false },
+      { "id": "e3-10", "source": "3", "target": "10", "animated": false },
+      { "id": "e3-11", "source": "3", "target": "11", "animated": false },
+      { "id": "e4-10", "source": "4", "target": "10", "animated": false },
+      { "id": "e5-12", "source": "5", "target": "12", "animated": false },
+      { "id": "e5-13", "source": "5", "target": "13", "animated": false },
+      { "id": "e6-14", "source": "6", "target": "14", "animated": false },
+      { "id": "e6-15", "source": "6", "target": "15", "animated": false },
+      { "id": "e7-15", "source": "7", "target": "15", "animated": false },
+      { "id": "e4-9", "source": "4", "target": "9", "animated": false }
+    ]
+  }
+  

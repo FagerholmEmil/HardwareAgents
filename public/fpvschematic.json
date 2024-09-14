@@ -1,0 +1,271 @@
+{
+    "name": "FPV Drone Build",
+    "nodes": [
+      {
+        "id": "1",
+        "type": "frame",
+        "data": {
+          "label": "FlyFishRC Volador II",
+          "price": "$70",
+          "url": "https://www.flyfish-rc.com/collections/volador-frames/products/volador-ii-vx5-o3-fpv-freestyle-t700-frame-kit?variant=42215327170740",
+          "imageUrl": "https://www.flyfish-rc.com/cdn/shop/products/Volador-_-VX5-O3-FPV-Freestyle-T700-Frame-Kit-1.jpg?v=1679307928"
+        },
+        "position": { "x": 250, "y": 25 }
+      },
+      {
+        "id": "2",
+        "type": "flight_controller",
+        "data": {
+          "label": "DIATONE MAMBA",
+          "price": "$108",
+          "url": "https://pyrodrone.com/products/diatone-mamba-mk4-f722-app-f55a-3-6s-128khz-blheli_32-flight-controller-stack-30x30mm",
+          "imageUrl": "https://pyrodrone.com/cdn/shop/products/app2_600x_3d5e3061-026f-4062-9051-c6ee5cd5c6b5_1200x1200.webp?v=1659476226"
+        },
+        "position": { "x": 100, "y": 150 }
+      },
+      {
+        "id": "3",
+        "type": "motor",
+        "data": {
+          "label": "Flash 2406 FPV Motor",
+          "price": "$23",
+          "url": "https://www.flyfish-rc.com/products/flash-2406-fpv-motor?_pos=1&_sid=d368c063b&_ss=r&variant=42088019722420",
+          "imageUrl": "https://www.flyfish-rc.com/cdn/shop/products/Flash-2406-1800KV-1950KV-FPV-Motor-1.jpg?v=1672980682"
+        },
+        "position": { "x": 400, "y": 150 }
+      },
+      {
+        "id": "4",
+        "type": "antenna",
+        "data": {
+          "label": "FlyFishRC Dual-Band Antenna",
+          "price": "$15",
+          "url": "https://www.flyfish-rc.com/collections/new-arrival/products/flyfishrc-5-8ghz-2-4ghz-dual-band-ufl-antenna-for-dji-o3?variant=42232576606388",
+          "imageUrl": "https://www.flyfish-rc.com/cdn/shop/products/FlyFishRC-5.8Ghz-2.4Ghz-Dual-Band-UFL-Antenna-For-DJI-O3-4.jpg?v=1681478563"
+        },
+        "position": { "x": 250, "y": 300 }
+      },
+      {
+        "id": "5",
+        "type": "receiver",
+        "data": {
+          "label": "RP1 V2 Receiver",
+          "price": "$19",
+          "url": "https://www.radiomasterrc.com/products/rp1-expresslrs-2-4ghz-nano-receiver?sca_ref=4072358.G6KyeicnR7",
+          "imageUrl": "https://www.radiomasterrc.com/cdn/shop/files/RP1-V240123_1800x1800.jpg?v=1706256012"
+        },
+        "position": { "x": 100, "y": 450 }
+      },
+      {
+        "id": "6",
+        "type": "antenna_mount",
+        "data": {
+          "label": "Volador II Antenna Mount",
+          "price": "$4",
+          "url": "https://www.flyfish-rc.com/collections/new-arrival/products/volador-ii-5-6-inch-o3-stubby-antenna-mount?variant=42257895882932",
+          "imageUrl": "https://www.flyfish-rc.com/cdn/shop/files/Volador-II-5-6inch-O3-Stubby-Antenna-Mount-3.jpg?v=1682514525"
+        },
+        "position": { "x": 400, "y": 450 }
+      },
+      {
+        "id": "7",
+        "type": "battery",
+        "data": {
+          "label": "Pyrodrone 6S Battery",
+          "price": "$30",
+          "url": "https://pyrodrone.com/collections/6s-batteries/products/pyro-drone-graphene-1250mah-6s-22-2v-75c",
+          "imageUrl": "https://pyrodrone.com/cdn/shop/products/cc3be546-3b6d-4da0-a3ac-7592b875e3ed_1200x1200.jpg?v=1622318348"
+        },
+        "position": { "x": 100, "y": 600 }
+      },
+      {
+        "id": "8",
+        "type": "battery_charger",
+        "data": {
+          "label": "GensAce IMARS Dual Battery Charger",
+          "price": "$120",
+          "url": "https://pyrodrone.com/collections/chargers-1/products/gensace-imars-dual-ac200w-dc300w-smart-balance-rc-battery-charger",
+          "imageUrl": "https://pyrodrone.com/cdn/shop/products/2__51678_740x.jpg?v=1656444308"
+        },
+        "position": { "x": 400, "y": 600 }
+      },
+      {
+        "id": "9",
+        "type": "propeller",
+        "data": {
+          "label": "HQ Prop Freestyle Prop",
+          "price": "$3",
+          "url": "https://pyrodrone.com/collections/5-inch/products/hq-freestyle-prop-5x4-3x3v2s-2cw-2ccw-poly-carbonate",
+          "imageUrl": "https://pyrodrone.com/cdn/shop/products/HQ543V2S_1200x1200.png?v=1581725655"
+        },
+        "position": { "x": 250, "y": 750 }
+      },
+      {
+        "id": "10",
+        "type": "battery_strap",
+        "data": {
+          "label": "FlyFishRC Battery Straps",
+          "price": "$5",
+          "url": "https://www.flyfish-rc.com/collections/battery-straps/products/flyfishrc-lipo-battery-strap?variant=41965834666164",
+          "imageUrl": "https://www.flyfish-rc.com/cdn/shop/products/FlyFishRC-Lipo-Battery-Strap-5.jpg?v=1666086903"
+        },
+        "position": { "x": 100, "y": 900 }
+      },
+      {
+        "id": "11",
+        "type": "smoke_stopper",
+        "data": {
+          "label": "JHEMCU Smoke Stopper",
+          "price": "$5",
+          "url": "https://pyrodrone.com/products/jhemcu-smoke-stopper-1-6s-xt30-xt60",
+          "imageUrl": "https://pyrodrone.com/cdn/shop/products/jhemcu-smoke-stopper_3_740x.jpg?v=1667953132"
+        },
+        "position": { "x": 400, "y": 900 }
+      },
+      {
+        "id": "12",
+        "type": "camera",
+        "data": {
+          "label": "GoPro Hero11 Black Mini",
+          "price": "$250",
+          "url": "https://gopro.com/en/us/shop/cameras/hero11-black-mini/CHDHF-111-master.html",
+          "imageUrl": "https://m.media-amazon.com/images/I/61rqipwHOAL.jpg"
+        },
+        "position": { "x": 100, "y": 1050 }
+      },
+      {
+        "id": "13",
+        "type": "transmitter",
+        "data": {
+          "label": "Radiomaster TX16S Mark II",
+          "price": "$100",
+          "url": "https://www.radiomasterrc.com/products/tx16s-mark-ii-radio-controller",
+          "imageUrl": "https://www.radiomasterrc.com/cdn/shop/products/M-II-1_1800x1800.jpg?v=1718184679"
+        },
+        "position": { "x": 400, "y": 1050 }
+      },
+      {
+        "id": "14",
+        "type": "goggles",
+        "data": {
+          "label": "DJI V2 Goggles",
+          "price": "$340",
+          "url": "https://www.amazon.com/DJI-Goggles-Immersive-Experience-Supports/dp/B0BSB54F82/ref=sr_1_2?crid=173BWZH6YAHJZ&keywords=dji+v2+goggles&qid=1682215018&sprefix=dji+v2+%2Caps%2C139&sr=8-2",
+          "imageUrl": "https://m.media-amazon.com/images/I/31m5P7bmrAL.jpg"
+        },
+        "position": { "x": 250, "y": 1200 }
+      },
+      {
+        "id": "15",
+        "type": "camera",
+        "data": {
+          "label": "DJI O3 Air Unit",
+          "price": "$230",
+          "url": "https://pyrodrone.com/products/dji-o3-air-unit",
+          "imageUrl": "https://pyrodrone.com/cdn/shop/products/dji-o3-air-unit-_8_1200x1200.jpg?v=1669131904"
+        },
+        "position": { "x": 250, "y": 1350 }
+      }
+    ],
+    "edges": [
+      {
+        "id": "e1-2",
+        "source": "1",
+        "target": "2",
+        "type": "straight",
+        "label": "mounts to"
+      },
+      {
+        "id": "e1-3",
+        "source": "1",
+        "target": "3",
+        "type": "straight",
+        "label": "connects to"
+      },
+      {
+        "id": "e2-5",
+        "source": "2",
+        "target": "5",
+        "type": "straight",
+        "label": "processes signals from"
+      },
+      {
+        "id": "e2-7",
+        "source": "2",
+        "target": "7",
+        "type": "straight",
+        "label": "powers"
+      },
+      {
+        "id": "e3-9",
+        "source": "3",
+        "target": "9",
+        "type": "straight",
+        "label": "generates thrust via"
+      },
+      {
+        "id": "e4-15",
+        "source": "4",
+        "target": "15",
+        "type": "straight",
+        "label": "feeds video"
+      },
+      {
+        "id": "e5-13",
+        "source": "5",
+        "target": "13",
+        "type": "straight",
+        "label": "establishes RF link with"
+      },
+      {
+        "id": "e6-4",
+        "source": "6",
+        "target": "4",
+        "type": "straight",
+        "label": "mounts to"
+      },
+      {
+        "id": "e7-10",
+        "source": "7",
+        "target": "10",
+        "type": "straight",
+        "label": "secured by"
+      },
+      {
+        "id": "e8-7",
+        "source": "8",
+        "target": "7",
+        "type": "straight",
+        "label": "charges"
+      },
+      {
+        "id": "e12-15",
+        "source": "12",
+        "target": "15",
+        "type": "straight",
+        "label": "records HD footage alongside"
+      },
+      {
+        "id": "e14-15",
+        "source": "14",
+        "target": "15",
+        "type": "straight",
+        "label": "receives video"
+      },
+      {
+        "id": "e13-5",
+        "source": "13",
+        "target": "5",
+        "type": "straight",
+        "label": "transmits control"
+      },
+      {
+        "id": "e15-1",
+        "source": "15",
+        "target": "1",
+        "type": "straight",
+        "label": "integrates with"
+      }
+    ]
+  }
+  

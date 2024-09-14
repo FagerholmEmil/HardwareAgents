@@ -1,5 +1,6 @@
 'use client';
 
+import DronePreferencesForm from '@/components/DronePreferencesForm';
 import { useSearchParams } from 'next/navigation';
 
 export default function SearchPage() {
@@ -7,10 +8,8 @@ export default function SearchPage() {
   const query = searchParams.get('query') || 'No query provided';
 
   return (
-    <div className="flex items-center justify-center min-h-screen">
-      <h1 className="text-6xl font-bold text-center text-gray-800">
-        Search results for: {query}
-      </h1>
+    <div className="flex flex-col items-center justify-center min-h-screen">
+      <DronePreferencesForm />
     </div>
   );
 }
