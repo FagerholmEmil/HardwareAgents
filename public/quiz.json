@@ -1,0 +1,94 @@
+{
+    "questions": [
+        {
+            "question": "What is your budget for your FPV drone setup (including drone, transmitter, and goggles)?",
+            "options": {
+                "A": "Under $300",
+                "B": "$300 - $500",
+                "C": "$500 - $1000",
+                "D": "Over $1000"
+            }
+        },
+        {
+            "question": "Do you prefer analog or digital video transmission for your FPV system?",
+            "options": {
+                "A": "Analog (traditional, lower latency, cheaper)",
+                "B": "Digital (better quality, more expensive)",
+                "C": "I'm not sure, need more information",
+                "D": "I'm open to either option"
+            }
+        },
+        {
+            "question": "What type of flying do you plan to do most often?",
+            "options": {
+                "A": "Freestyle (acrobatic tricks and maneuvers)",
+                "B": "Racing (high-speed competitive flying)",
+                "C": "Cinematic (smooth, stable footage)",
+                "D": "Long range (exploring distant areas)"
+            }
+        },
+        {
+            "question": "What is your experience level with flying drones?",
+            "options": {
+                "A": "Complete beginner",
+                "B": "Some experience with toy drones",
+                "C": "Intermediate (flown FPV in simulators)",
+                "D": "Experienced FPV pilot"
+            }
+        },
+        {
+            "question": "Do you prefer to build your own drone or buy a ready-to-fly (RTF) kit?",
+            "options": {
+                "A": "Build my own from scratch",
+                "B": "Assemble a pre-selected kit",
+                "C": "Buy a ready-to-fly (RTF) drone",
+                "D": "Not sure, open to suggestions"
+            }
+        },
+        {
+            "question": "What size of FPV drone are you interested in?",
+            "options": {
+                "A": "Micro (under 3 inch props)",
+                "B": "Mini (3-4 inch props)",
+                "C": "Standard (5 inch props)",
+                "D": "Large (6 inch props or larger)"
+            }
+        },
+        {
+            "question": "Do you already own FPV goggles? If yes, which brand/model?",
+            "options": {
+                "A": "No, I need to buy goggles",
+                "B": "Yes, I own Fat Shark goggles",
+                "C": "Yes, I own DJI goggles",
+                "D": "Yes, I own another brand (please specify)"
+            }
+        },
+        {
+            "question": "What type of radio transmitter do you prefer?",
+            "options": {
+                "A": "FrSky (e.g., Taranis)",
+                "B": "Spektrum",
+                "C": "TBS Crossfire/Tracer",
+                "D": "I don't have a preference/need recommendations"
+            }
+        },
+        {
+            "question": "How important is flight time/battery life to you?",
+            "options": {
+                "A": "Very important (prefer longer flights)",
+                "B": "Somewhat important",
+                "C": "Not very important",
+                "D": "I'm willing to carry extra batteries"
+            }
+        },
+        {
+            "question": "Do you plan to use your drone for capturing video/photos?",
+            "options": {
+                "A": "Yes, high-quality footage is important",
+                "B": "Yes, but it's not the primary focus",
+                "C": "No, I'm mainly interested in the flying experience",
+                "D": "Undecided"
+            }
+        }
+    ]
+}
