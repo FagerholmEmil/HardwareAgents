@@ -3,19 +3,20 @@
 Todo
 + Create a form for what requirments the user has (price, time, quantity, location)
     - Make claude generate the form. 
-
 + Create charts of what parts are needed in a project (react flow)
     - Make claude generate the chart
     - Make the chart have a message of what suggested components are needed (like the brand)
+
 - Create a RAG system that finds the best parts for a project online (LLama 3.1, crewai, perplexity, claude) 
     - RAG to find information on parts. So when you get the form you get some information on benefits and drawbacks of parts.
+
 - Click on Nodes to get benefits or drawbacks of the part
+
 - Put Everything in a shopping list
 
 ----
 
 RAG
-
 - Query Agent takes the query of what should be built and generates a list of parts based on reddit (claude or upstage). The limits/query of the components come from the Form. 
 
 - that list of parts is sent to the Feasibility/Practicality Analyst, Designer/Engineer, Critic/Reviewer, Supply Chain/Logistics Specialist
@@ -50,8 +51,15 @@ prompt: this is an example of all the components needed for an FPV drone. i want
 
 ---
 
-
-
+// CrewAI
+// to create agents for the following roles
+// Idea Generator/Innovator
+// Part Generator
+// Feasibility/Practicality Analyst
+// Designer/Engineer
+// Critic/Reviewer
+// Meta-Critic
+// Supply Chain/Logistics Specialist
 
 
 
