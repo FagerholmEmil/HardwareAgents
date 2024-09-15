@@ -1,6 +1,6 @@
 "use client";
 
-import { Loader2, Search, X } from "lucide-react";
+import { Loader2, Search} from "lucide-react";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { useEffect, useRef, useState, useTransition } from "react";
