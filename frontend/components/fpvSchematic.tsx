@@ -1,7 +1,5 @@
 'use client'
 
-// use upstage/claude to create a flow chart of the parts
-
 import React, { useEffect, useState, useCallback } from 'react';
 import ReactFlow, {
   Node,
@@ -38,7 +36,7 @@ const nodeTypes = {
 const FPVSchematic: React.FC = () => {
   const [nodes, setNodes, onNodesChange] = useNodesState([]);
   const [edges, setEdges, onEdgesChange] = useEdgesState([]);
-  const [selectedNode, setSelectedNode] = useState<string | null>(null);
+  // const [selectedNode, setSelectedNode] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -82,7 +80,7 @@ const FPVSchematic: React.FC = () => {
   }, []);
 
   const onNodeClick = useCallback((event: React.MouseEvent, node: Node) => {
-    setSelectedNode(node.id);
+    // setSelectedNode(node.id);
     setEdges((eds) =>
       eds.map((edge) => ({
         ...edge,
@@ -92,7 +90,7 @@ const FPVSchematic: React.FC = () => {
   }, [setEdges]);
 
   const onPaneClick = useCallback(() => {
-    setSelectedNode(null);
+    // setSelectedNode(null);
     setEdges((eds) =>
       eds.map((edge) => ({
         ...edge,

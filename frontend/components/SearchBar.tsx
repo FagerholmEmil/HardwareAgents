@@ -19,15 +19,15 @@ const SearchBar: React.FC<SearchBarProps> = ({ isLoggedIn = true }) => {
   const pathname = usePathname();
   const [query, setQuery] = useState<string>(defaultQuery);
   const [isFocused, setIsFocused] = useState(false);
-  const [showResults, setShowResults] = useState(false);
-  const [searchedQuery, setSearchedQuery] = useState<string>("");
+  // const [showResults, setShowResults] = useState(false);
+  // const [searchedQuery, setSearchedQuery] = useState<string>("");
 
   const search = () => {
     if (isLoggedIn) {
       startTransition(() => {
         router.push(`/search?query=${encodeURIComponent(query)}`);
-        setShowResults(true);
-        setSearchedQuery(query);
+        // setShowResults(true);
+        // setSearchedQuery(query);
       });
     } else {
       alert("Please log in to search.");
@@ -36,15 +36,15 @@ const SearchBar: React.FC<SearchBarProps> = ({ isLoggedIn = true }) => {
 
   const clearSearch = () => {
     setQuery("");
-    setShowResults(false);
-    setSearchedQuery("");
+    // setShowResults(false);
+    // setSearchedQuery("");
     router.push("/");
   };
 
   useEffect(() => {
     if (pathname === "/") {
       setQuery("");
-      setShowResults(false);
+      // setShowResults(false);
     }
   }, [pathname]);
 
