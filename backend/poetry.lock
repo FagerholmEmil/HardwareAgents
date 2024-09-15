@@ -1564,6 +1564,19 @@ aiohttp = ["aiohttp (>=3.6.2,<4.0.0dev)", "google-auth (>=1.22.0,<2.0dev)"]
 requests = ["requests (>=2.18.0,<3.0.0dev)"]
 
 [[package]]
+name = "google-search-results"
+version = "2.4.2"
+description = "Scrape and search localized results from Google, Bing, Baidu, Yahoo, Yandex, Ebay, Homedepot, youtube at scale using SerpApi.com"
+optional = false
+python-versions = ">=3.5"
+files = [
+    {file = "google_search_results-2.4.2.tar.gz", hash = "sha256:603a30ecae2af8e600b22635757a6df275dad4b934f975e67878ccd640b78245"},
+]
+
+[package.dependencies]
+requests = "*"
+
+[[package]]
 name = "googleapis-common-protos"
 version = "1.65.0"
 description = "Common protobufs used in Google APIs"
@@ -2325,20 +2338,6 @@ pydantic = [
     {version = ">=2.7.4,<3.0.0", markers = "python_full_version >= \"3.12.4\""},
 ]
 requests = ">=2,<3"
-
-[[package]]
-name = "load-dotenv"
-version = "0.1.0"
-description = "Automatically and implicitly load environment variables from .env file"
-optional = false
-python-versions = "*"
-files = [
-    {file = "load-dotenv-0.1.0.tar.gz", hash = "sha256:bbe5f40072d4a61eadca66de6c222df5a2d935d6d41b703be1ff75396f635145"},
-    {file = "load_dotenv-0.1.0-py3-none-any.whl", hash = "sha256:614803f720153fb8a5f97124a72aaa3930a67aa5547cbe8603d01ea7f9ac1adf"},
-]
-
-[package.dependencies]
-python-dotenv = "*"
 
 [[package]]
 name = "mako"
@@ -4340,6 +4339,17 @@ pymysql = ["pymysql"]
 sqlcipher = ["sqlcipher3_binary"]
 
 [[package]]
+name = "sseclient-py"
+version = "1.8.0"
+description = "SSE client for Python"
+optional = false
+python-versions = "*"
+files = [
+    {file = "sseclient-py-1.8.0.tar.gz", hash = "sha256:c547c5c1a7633230a38dc599a21a2dc638f9b5c297286b48b46b935c71fac3e8"},
+    {file = "sseclient_py-1.8.0-py2.py3-none-any.whl", hash = "sha256:4ecca6dc0b9f963f8384e9d7fd529bf93dd7d708144c4fb5da0e0a1a926fee83"},
+]
+
+[[package]]
 name = "starlette"
 version = "0.38.5"
 description = "The little ASGI library that shines."
@@ -4372,6 +4382,20 @@ mpmath = ">=1.1.0,<1.4"
 
 [package.extras]
 dev = ["hypothesis (>=6.70.0)", "pytest (>=7.1.0)"]
+
+[[package]]
+name = "tabulate"
+version = "0.9.0"
+description = "Pretty-print tabular data"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "tabulate-0.9.0-py3-none-any.whl", hash = "sha256:024ca478df22e9340661486f85298cff5f6dcdba14f3813e8830015b9ed1948f"},
+    {file = "tabulate-0.9.0.tar.gz", hash = "sha256:0095b12bf5966de529c0feb1fa08671671b3368eec77d7ef7ab114be2c068b3c"},
+]
+
+[package.extras]
+widechars = ["wcwidth"]
 
 [[package]]
 name = "tenacity"
@@ -4453,6 +4477,26 @@ requests = ">=2.26.0"
 
 [package.extras]
 blobfile = ["blobfile (>=2)"]
+
+[[package]]
+name = "together"
+version = "0.2.11"
+description = "Python client for Together's Cloud Platform!"
+optional = false
+python-versions = ">=3.7,<4.0"
+files = [
+    {file = "together-0.2.11-py3-none-any.whl", hash = "sha256:0760aafe1b53cf41cb58592086a2b5edef956a2536b52daecfc2f9ef0fc736d5"},
+    {file = "together-0.2.11.tar.gz", hash = "sha256:906ae626b0ec49f7ea90d5660fb4c28664a1f55719f998e868d035f417316e24"},
+]
+
+[package.dependencies]
+aiohttp = ">=3.7.4,<4.0.0"
+pydantic = ">=2.5.0,<3.0.0"
+requests = ">=2.31.0,<3.0.0"
+sseclient-py = ">=1.7.2,<2.0.0"
+tabulate = ">=0.9.0,<0.10.0"
+tqdm = ">=4.66.1,<5.0.0"
+typer = ">=0.9.0,<0.10.0"
 
 [[package]]
 name = "tokenizers"
@@ -5253,4 +5297,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10.0,<3.13"
-content-hash = "05fc7ad1c9a04844f837b1a6a9b7662b2eff869b3247e6e267cf172e6a330f61"
+content-hash = "59787163e479581f43b8c61b7f4e1b444a0ecaacc2ed222b0cc2e5f24316efe4"

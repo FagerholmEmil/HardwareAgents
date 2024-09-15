@@ -4,6 +4,7 @@ import { MdEdit, MdClose, MdArrowForward } from "react-icons/md";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Plus } from "lucide-react";
+import FPVSchematic from "./fpvSchematic";
 
 interface DronePreference {
   question: string;
@@ -46,6 +47,7 @@ const DronePreferencesForm: React.FC = () => {
   const [editingIndex, setEditingIndex] = useState<number | null>(null);
   const [additionalCriteria, setAdditionalCriteria] = useState<string[]>([]);
   const [newCriterion, setNewCriterion] = useState("");
+  const [showSchematic, setShowSchematic] = useState(false);
 
   // Add useEffect to log preferences whenever they change
   useEffect(() => {
@@ -85,6 +87,16 @@ const DronePreferencesForm: React.FC = () => {
     }
   };
 
+  const handleSearch = () => {
+    setShowSchematic(true);
+  };
+
+  if (showSchematic) {
+    return (
+      <FPVSchematic />
+    )
+  }
+
   if (!showSummary) {
     const currentQuestion = preferences[currentQuestionIndex];
     return (
@@ -110,7 +122,7 @@ const DronePreferencesForm: React.FC = () => {
     <div className="bg-[#1E2023] text-white p-6 rounded-lg max-w-2xl mx-auto">
       <h2 className="text-xl font-bold mb-4">Search criteria</h2>
       <p className="text-sm text-gray-400 mb-4">(edit to refine)</p>
-      
+
       {preferences.map((pref, index) => (
         <div key={index} className="py-3 border-b border-gray-700">
           {editingIndex === index ? (
@@ -147,7 +159,7 @@ const DronePreferencesForm: React.FC = () => {
           )}
         </div>
       ))}
-      
+
       {additionalCriteria.map((criterion, index) => (
         <div key={index} className="flex justify-between items-center py-3 border-b border-gray-700">
           <p>{criterion}</p>
@@ -156,7 +168,7 @@ const DronePreferencesForm: React.FC = () => {
           </button>
         </div>
       ))}
-      
+
       <div className="mt-4 flex group">
         <Input
           type="text"
@@ -171,6 +183,15 @@ const DronePreferencesForm: React.FC = () => {
           className="bg-[#5865F2] text-white rounded-l-none hover:bg-[#4752C4] transition-colors duration-300 ease-in-out group-hover:bg-[#4752C4]"
         >
           <Plus className="h-4 w-4" />
+        </Button>
+      </div>
+
+      <div className="mt-4">
+        <Button
+          onClick={handleSearch}
+          className="w-full bg-[#5865F2] text-white hover:bg-[#4752C4] transition-colors duration-300 ease-in-out"
+        >
+          Search for Drones
         </Button>
       </div>
     </div>
