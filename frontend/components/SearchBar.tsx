@@ -34,13 +34,6 @@ const SearchBar: React.FC<SearchBarProps> = ({ isLoggedIn = true }) => {
     }
   };
 
-  const clearSearch = () => {
-    setQuery("");
-    // setShowResults(false);
-    // setSearchedQuery("");
-    router.push("/");
-  };
-
   useEffect(() => {
     if (pathname === "/") {
       setQuery("");
