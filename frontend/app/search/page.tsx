@@ -2,32 +2,18 @@
 
 import { useSearchParams } from 'next/navigation';
 import DronePreferencesForm from '@/components/DronePreferencesForm';
-import { Suspense } from 'react';
-import LoadingSpinner from '@/components/LoadingSpinner';
 
-function SearchContent() {
+export default function SearchPage() {
   const searchParams = useSearchParams();
   const query = searchParams.get('query') || '';
 
   return (
-    <>
+    <div className="flex flex-col items-center justify-center min-h-screen">
       {query.toLowerCase() === 'fpv' ? (
-        <div className="flex flex-col items-center justify-center min-h-screen">
-          <DronePreferencesForm />
-        </div>
+        <DronePreferencesForm />
       ) : (
-        <div className="flex flex-col items-center justify-center min-h-screen">
-          <h1>Search Results for: {query}</h1>
-        </div>
+        <h1>Search Results for: {query}</h1>
       )}
-    </>
-  );
-}
-
-export default function SearchPage() {
-  return (
-    <Suspense fallback={<div><LoadingSpinner /></div>}>
-      <SearchContent />
-    </Suspense>
+    </div>
   );
 }
