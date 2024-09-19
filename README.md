@@ -1,8 +1,9 @@
 # AI Agents that can build any hardware product
 
+## Techstack
 Built with crewai, together.ai and Llama 3.1
 
-### How does it work?
+## How does it work?
 Enter what you want to build, and the agents will search for the right parts and create a schematic based on your preferences.
 
 ![Screenshot 2024-09-19 at 19 31 07](https://github.com/user-attachments/assets/250340d0-a283-443a-aa25-c7592da8feb3)
